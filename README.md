@@ -1,4 +1,4 @@
-# defectdojo findings thresholds v1
+ defectdojo findings thresholds v1
 
 This GitHub Action that queries the number of active finding in DefectDojo by product and then compares them against the thresholds set by the user, failing the build if the thresholds are exceeded.
 
