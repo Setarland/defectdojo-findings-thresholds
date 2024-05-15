@@ -1,3 +1,4 @@
+gpg --list-secret-keys --keyid-format=long
 
  defectdojo findings thresholds v1
 
@@ -5,7 +6,8 @@ This GitHub Action that queries the number of active finding in DefectDojo by pr
 
 portswigger-cloud/defectdojo-findings-thresholds@v1
 
-__Example output__
+$ git commit -S -m "YOUR_COMMIT_MESSAGE"
+# Creates a signed commit
 
 The total number of my-product findings 61 is greater than the configured threshold of 50
 
@@ -34,7 +36,8 @@ If any of the thresholds are left blank they will not evaluated by this action.
 
 ### Simple example
 
-```
+$ git commit -S -m "YOUR_COMMIT_MESSAGE"
+# Creates a signed commit
 name: test-security-findings-threshold-by-product-against-active-findings-from-defectdojo
 on:
   push
