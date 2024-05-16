@@ -1,4 +1,4 @@
-gpg --list-secret-keys --keyid-format=long
+--list-secret-keys --keyid-format=long
 
  defectdojo findings thresholds v1
 
